@@ -57,6 +57,8 @@ module CruiseControl
     end
 
     config.action_view.javascript_expansions[:defaults] = ['rails', 'jquery', 'jquery_ujs']
+
+    config.i18n.enforce_available_locales = true
   end
 end
 
